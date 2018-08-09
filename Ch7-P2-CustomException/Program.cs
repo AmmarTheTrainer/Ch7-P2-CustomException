@@ -12,6 +12,8 @@ namespace Ch7_P2_CustomException
         {
             Console.WriteLine(" Custom exceptions ");
 
+
+
             Console.ReadLine();
         }
     }
