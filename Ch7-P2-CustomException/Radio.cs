@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ch7_P1_SimpleException
+namespace Ch7_P2_CustomException
 {
     class Radio
     {

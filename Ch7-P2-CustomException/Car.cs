@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ch7_P1_SimpleException
+namespace Ch7_P2_CustomException
 {
     class Car
     {
@@ -45,12 +45,23 @@ namespace Ch7_P1_SimpleException
                     CurrentSpeed = 0;
                     carIsDead = true;
 
-                    Exception ex = new Exception($"{CarName} has overheated!");
-                    ex.HelpLink = "http://www.Apni-Auqat-Main-Raho.com";
-                    ex.Data.Add("TimeStamp", $"The car exploded at {DateTime.Now}");
-                    ex.Data.Add("Cause", "You have a Loud foot.");
+                    #region Throwing excpetion by custom exception class
 
-                    throw ex;
+                    
+
+                    #endregion
+                    #region throwing expcetion by using base exception class
+
+
+                    //Exception ex = new Exception($"{CarName} has overheated!");
+                    //ex.HelpLink = "http://www.Apni-Auqat-Main-Raho.com";
+                    //ex.Data.Add("TimeStamp", $"The car exploded at {DateTime.Now}");
+                    //ex.Data.Add("Cause", "You have a Loud foot.");
+
+                    //throw ex;
+
+                    #endregion
+
                 }
                 else
                 {

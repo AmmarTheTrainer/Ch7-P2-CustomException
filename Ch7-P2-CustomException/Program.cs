@@ -10,7 +10,12 @@ namespace Ch7_P2_CustomException
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(" Custom exceptions ");
+            #region System-Level Excpetions
+
+            //NullReferenceException nullReferenceExp = new NullReferenceException();
+            //Console.WriteLine(" NullReferenceException is-a SystemException? : {0}", nullReferenceExp is SystemException);
+            
+            #endregion
 
 
 
