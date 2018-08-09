@@ -47,9 +47,13 @@ namespace Ch7_P2_CustomException
 
                     #region Throwing excpetion by custom exception class
 
-                    
+                    CarIsDeadException ex = new CarIsDeadException($"{CarName} is over heated", 
+                                                                    "You have a loud foot", DateTime.Now);
+                    ex.HelpLink = "www.apni-auqat-main-raho.com";
+                    throw ex;
 
                     #endregion
+                    
                     #region throwing expcetion by using base exception class
 
 
