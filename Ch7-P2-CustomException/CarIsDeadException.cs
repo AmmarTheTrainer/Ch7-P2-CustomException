@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace Ch7_P2_CustomException
 {
+    #region older CarIsDeadException
+
+
+
+
     ////public class CarIsDeadException : ApplicationException
     ////{
     ////    private string messageDetails = String.Empty;
@@ -30,6 +35,12 @@ namespace Ch7_P2_CustomException
 
 
     // A standard .NET custom exception is here....
+
+    #endregion
+
+    
+    
+
     public class CarIsDeadException : ApplicationException
     {
         private string messageDetails = String.Empty;
